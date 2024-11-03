@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
 
     // Vérification spécifique pour un compte administrateur
-    if ($email === "ezzahrifatimaezzahra@gmail.com" && $password === "admin") {
+    if ($email === "soaad@gmail.com" && $password === "admin") {
         // Rediriger vers le tableau de bord de l'administrateur
         header("Location: admin.php");
         exit();
